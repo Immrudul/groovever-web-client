@@ -1,15 +1,15 @@
-function App() {
+function VideoCard() {
   return (
-    <>
-      <div className="font-sans">
+    <div className="">
+      <div className="font-sans w-full">
         <a
-          className="relative block lg:w-1/3 w-full group"
+          className="relative lg:w-1/3 w-full group"
           href="##"
-          style={{ position: "relative", display: "block" }}
+          style={{ display: "block" }}
         >
           <img
-            className="absolute inset-0 object-cover w-full h-full group-hover:opacity-20 rounded-3xl"
-            src="/Milky Way.png"
+            className="absolute object-cover w-full h-full group-hover:opacity-20 rounded-3xl"
+            src="/Hearts and Darts.png"
           />
           <div className="relative p-5 rounded-3xl group-hover:border-4 group-hover:border-orange-500">
             <div className="mb-60">
@@ -52,8 +52,8 @@ function App() {
           </div>
         </a>
       </div>
-    </>
+    </div>
   );
 }
 
-export default App;
+export default VideoCard;
