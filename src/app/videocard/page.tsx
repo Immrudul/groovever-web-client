@@ -1,12 +1,8 @@
 function VideoCard() {
   return (
-    <div className="">
-      <div className="font-sans w-full">
-        <a
-          className="relative lg:w-1/3 w-full group"
-          href="##"
-          style={{ display: "block" }}
-        >
+    <div className="w-full lg:w-1/3 m-6">
+      <div className="font-sans w-full min-w-lg">
+        <a className="relative lg:w-full min-w-lg w-full group" href="##">
           <img
             className="absolute object-cover w-full h-full group-hover:opacity-20 rounded-3xl"
             src="/Hearts and Darts.png"
