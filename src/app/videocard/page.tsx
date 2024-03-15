@@ -1,6 +1,6 @@
 function VideoCard() {
   return (
-    <div className="w-full lg:w-1/3 m-6">
+    <div className="w-full lg:w-[29.5vw] m-6">
       <div className="font-sans w-full min-w-lg">
         <a className="relative lg:w-full min-w-lg w-full group" href="##">
           <img
