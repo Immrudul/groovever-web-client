@@ -7,10 +7,10 @@ function VideoCard() {
             className="absolute object-cover w-full h-full group-hover:opacity-20 rounded-3xl"
             src="/Hearts and Darts.png"
           />
-          <div className="relative p-5 rounded-3xl group-hover:border-4 group-hover:border-orange-500">
+          <div className="relative p-5 rounded-3xl gborder ">
             <div className="mb-60">
               {/* Hidden content */}
-              <div className="absolute inset-0 transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 ">
+              <div className="absolute inset-0 transition-all transform translate-y-6 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 ">
                 <div className="py-6 px-6 h-full flex flex-col justify-between">
                   <div className="flex justify-between space-x-4">
                     <div className="lg:text-base text-xs flex justify-center w-1/3 bg-white rounded-full py-2 border-4 border-orange-300	">
@@ -32,7 +32,7 @@ function VideoCard() {
                         Blackpink
                       </p>
                     </em>
-                    <div className="flex justify-between">
+                    <div className="flex justify-between ">
                       <div className="font-normal lg:text-sm text-xs">
                         Jan 30, 2024 | 17:30 EST | 90 mins
                       </div>
