@@ -37,6 +37,9 @@ const Recover = () => {
                   placeholder="Email"
                 />
               </div>
+              <div className="flex justify-end text-sm pt-2 text-red-500">
+                Email does not exist. Please try again.
+              </div>
             </form>
           </div>
         </div>
