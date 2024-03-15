@@ -8,7 +8,7 @@ export default function LearnPage() {
         <div className="h-full absolute inset-0">
           <div className="relative h-full">
             <Image
-              src="/hearts.png"
+              src="/Hearts and Darts.png"
               alt="hearts and darts image"
               style={{ objectFit: "cover", opacity: 0.5 }} // Adjust opacity as needed
               layout="fill"
@@ -291,6 +291,13 @@ export default function LearnPage() {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="flex flex-col lg:grid lg:grid-cols-3 lg:gap-4 lg:justify-end">
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
       </div>
     </div>
   );
