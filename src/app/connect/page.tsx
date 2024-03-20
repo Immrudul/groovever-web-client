@@ -31,6 +31,43 @@ export default function ConnectPage() {
           </div>
         </div>
       </div>
+
+      <div className="card lg:card-side bg-base-100 shadow-xl mt-20 mx-12 border-4 border-orange-400 ">
+        <figure className="lg:w-1/3">
+          <img src="V.png" alt="Album" className="aspect-video object-cover" />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">New album is released!</h2>
+          <p>Click the button to listen on Spotiwhy app.</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Listen</button>
+          </div>
+        </div>
+      </div>
+      <div className="card lg:card-side bg-base-100 shadow-xl mt-20 mx-12 border-4 border-orange-400 ">
+        <figure className="lg:w-1/3">
+          <img src="V.png" alt="Album" className="aspect-video object-cover" />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">New album is released!</h2>
+          <p>Click the button to listen on Spotiwhy app.</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Listen</button>
+          </div>
+        </div>
+      </div>
+      <div className="card lg:card-side bg-base-100 shadow-xl mt-20 mx-12 border-4 border-orange-400 ">
+        <figure className="lg:w-1/3">
+          <img src="V.png" alt="Album" className="aspect-video object-cover" />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">New album is released!</h2>
+          <p>Click the button to listen on Spotiwhy app.</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Listen</button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
