@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.gborder:hover {
+.gborderhover:hover {
   outline: 5px solid orange;
 }

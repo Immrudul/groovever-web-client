@@ -7,7 +7,7 @@ function VideoCard() {
             className="absolute object-cover w-full h-full group-hover:opacity-20 rounded-3xl"
             src="/Hearts and Darts.png"
           />
-          <div className="relative p-5 rounded-3xl gborder ">
+          <div className="relative p-5 rounded-3xl gborderhover ">
             <div className="mb-60">
               {/* Hidden content */}
               <div className="absolute inset-0 transition-all transform translate-y-6 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 ">
