@@ -47,7 +47,7 @@ export default function ConnectPage() {
               <span className="text-4xl font-black">
                 University of Waterloo Street Dance
               </span>
-              <span>CREW</span>
+              <button>CREW</button>
             </div>
             <div className="xl:-mr-10 text-lg">
               This is the place holder for the content of UofW street dance
