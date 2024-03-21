@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ConnectPage() {
   return (
@@ -43,11 +44,11 @@ export default function ConnectPage() {
         {/* Dont remove the 0.1px padding it actually does make a difference in the mobile version believe it or not! */}
         <div className="bg-white xl:h-auto flex flex-col justify-between xl:p-6 xl:-ml-12 xl:mx-0 p-5 xl:my-0 mb-10 -mt-3 ml-[0.1px] xl:w-2/3 ">
           <div className="">
-            <div className="flex items-center pb-4 space-x-8">
+            <div className="flex lg:flex-row flex-col lg:items-center items-start pb-4 lg:space-x-8">
               <span className="text-4xl font-black">
                 University of Waterloo Street Dance
               </span>
-              <button>CREW</button>
+              <button className="lg:mt-0 mt-4">CREW</button>
             </div>
             <div className="xl:-mr-10 text-lg">
               This is the place holder for the content of UofW street dance
@@ -59,8 +60,39 @@ export default function ConnectPage() {
             </div>
           </div>
           <div className="space-x-2 xl:mt-0 mt-4 xl:mb-0 -mb-10 text-lg">
-            <span>FRIENDLY LINKS:</span>
-            <span>Website</span>
+            <span className="font-black">FRIENDLY LINKS:</span>
+            <div className="flex flex-wrap">
+              <Link
+                className="text-gorange font-black hover:underline hover:underline-offset-4 decoration-2"
+                href="https://discord.gg/a7y9htuqk3"
+              >
+                Discord
+              </Link>
+              <Link
+                className="text-gorange font-black hover:underline hover:underline-offset-4 decoration-2"
+                href="https://www.instagram.com/groovever/"
+              >
+                Instagram
+              </Link>
+              <Link
+                className="text-gorange font-black hover:underline hover:underline-offset-4 decoration-2"
+                href="https://www.tiktok.com/@groovever"
+              >
+                TikTok
+              </Link>
+              <Link
+                className="text-gorange font-black hover:underline hover:underline-offset-4 decoration-2"
+                href="https://twitter.com/i/flow/login?redirect_after_login=%2FGroovEver"
+              >
+                Twitter
+              </Link>
+              <Link
+                className="text-gorange font-black hover:underline hover:underline-offset-4 decoration-2"
+                href="https://www.xiaohongshu.com/user/profile/5fa7ea1100000000010060ca"
+              >
+                Xiaohongshu
+              </Link>
+            </div>
           </div>
         </div>
       </div>
