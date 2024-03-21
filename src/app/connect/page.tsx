@@ -43,8 +43,11 @@ export default function ConnectPage() {
         {/* Dont remove the 0.1px padding it actually does make a difference in the mobile version believe it or not! */}
         <div className="bg-white xl:h-auto flex flex-col justify-between xl:p-6 xl:-ml-12 xl:mx-0 p-5 xl:my-0 mb-10 -mt-3 ml-[0.1px] xl:w-2/3 ">
           <div className="">
-            <div className="text-4xl font-black pb-4">
-              University of Waterloo Street Dance
+            <div className="flex items-center pb-4 space-x-8">
+              <span className="text-4xl font-black">
+                University of Waterloo Street Dance
+              </span>
+              <span>CREW</span>
             </div>
             <div className="xl:-mr-10 text-lg">
               This is the place holder for the content of UofW street dance
@@ -57,7 +60,7 @@ export default function ConnectPage() {
           </div>
           <div className="space-x-2 xl:mt-0 mt-4 xl:mb-0 -mb-10 text-lg">
             <span>FRIENDLY LINKS:</span>
-            <span>Website Website Website Website</span>
+            <span>Website</span>
           </div>
         </div>
       </div>
